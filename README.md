@@ -18,7 +18,7 @@ All select options are defined in the constructor
             ['columns_name'=>'E','options'=>$status],
         ];
         $this->selects=$selects;
-        $this->row_count=50;//number of rows that will have the dropdown. get layout counts (add 1 to rows for heading row)
+        $this->row_count=50;//number of rows that will have the dropdown
         $this->column_count=5;//number of columns to be auto sized
     }
 ```
