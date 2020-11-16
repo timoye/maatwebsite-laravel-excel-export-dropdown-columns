@@ -19,9 +19,11 @@ class UserExport implements FromCollection,WithHeadings,WithEvents
     {
         $status=['active','pending','disabled'];
         $departments=['Account','Admin','Ict','Sales'];
+        $roles=\App\ModelName::pluck('name')->toArray();
         $selects=[  //selects should have column_name and options
             ['columns_name'=>'D','options'=>$departments],
             ['columns_name'=>'E','options'=>$status],
+            ['columns_name'=>'F','options'=>$roles],
         ];
         $this->selects=$selects;
         $this->row_count=50;//number of rows that will have the dropdown
@@ -43,6 +45,7 @@ class UserExport implements FromCollection,WithHeadings,WithEvents
             'phone',
             'department',
             'status',
+            'role',
         ];
     }
 
