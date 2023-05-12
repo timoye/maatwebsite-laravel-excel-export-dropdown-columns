@@ -3,6 +3,8 @@
 [Laravel Excel](https://github.com/SpartnerNL/Laravel-Excel) (Maatwebsite Laravel Excel is now called Laravel Excel) 
 is a simple, but elegant Laravel wrapper around PhpSpreadsheet exports and imports.
 
+Detailed article is found [here on dev.to](https://dev.to/timoye/laravel-excel-export-with-dropdown-columns-5me)
+
 You can have dropdown columns in Laravel Excel Export
 
 Open the example export [User Export](https://github.com/timoye/maatwebsite-laravel-excel-export-dropdown-columns/blob/master/UserExport.php)
